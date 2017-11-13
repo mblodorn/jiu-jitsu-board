@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title{
+    font-size: 5em;
+}
+
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board__item{
+    height: 100%;
+    border: solid 1px;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.points{
+    text-align: center;
+    flex: 1;
+    height: 100%;
+    font-size: 2.5em;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4F1FE;
+}
+
+.points--advantages{
+    background-color: #2574A9;
+}
+
+
+.points--punishments{
+    background-color: #F03434;    
+
+}
+
+.timer{
+    font-size: 5em;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

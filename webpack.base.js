@@ -35,11 +35,8 @@ module.exports = {
       }
     },
     {
-      test: /\.(css|scss)$/,
-      use: ExtractTextPlugin.extract({
-        fallback: 'style-loader',
-        use: ['css-loader', 'sass-loader'],
-      })
+      test: /\.css$/,
+      loader: "style-loader!css-loader"
     },
     {
       test: /\.(woff2?|ttf|eot|svg)$/,
